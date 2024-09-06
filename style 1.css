@@ -1,0 +1,31 @@
+body {
+    /* background-color: #90d5ff; */
+    background-image: url("https://i.pinimg.com/originals/01/d3/5a/01d35a1a9b91cdcafe85bc9b9db2c1c6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; 
+} 
+
+.menu {
+background: #4169e1;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #040273;
+}
