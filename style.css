@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("https://pbs.twimg.com/ext_tw_video_thumb/1348596967979380743/pu/img/VTBr9o0uwBdLAM2S.jpg:large");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+/* Estilo do header */
+header {
+    width: 100%;
+    padding: 40px 0;
+    background: #b7c9e2;
+    height: 16vh;
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+header .mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+header .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+header .mobile-menu {
+    display: block;
+}
+
+header .menu-desktop nav ul {
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+header .btn-contato button {
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
