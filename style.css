@@ -62,10 +62,10 @@ header .menu-desktop nav ul li {
 }
 
 header .menu-desktop nav ul li a {
+    font-weight: 700;
     color: white;
     text-decoration: none;
     margin-top: 0px;
-    font-weight: 700;
 }
 
 header .btn-contato button {
