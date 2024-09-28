@@ -43,7 +43,7 @@ header .mobile-menu {
 header .mobile-menu div {
     width: 32px;
     height: 2px;
-    font-weight: bolder;
+    font-weight: 700;
     background: #fff;
     margin: 8px;
 }
@@ -71,7 +71,7 @@ header .btn-contato button {
     width: 140px;
     height: 50px;
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: 700;
     background-color: transparent;
     border: 1px solid #fff;
     color: #fff;
