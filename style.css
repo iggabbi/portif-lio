@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    font-weight: 700;
 }
 
 body {
@@ -43,7 +44,6 @@ header .mobile-menu {
 header .mobile-menu div {
     width: 32px;
     height: 2px;
-    font-weight: 700;
     background: #fff;
     margin: 8px;
 }
