@@ -58,6 +58,7 @@ header .menu-desktop nav ul {
 header .menu-desktop nav ul li {
     display: inline-block;
     margin: 0 40px;
+    font-weight: 700;
 }
 
 header .menu-desktop nav ul li a {
