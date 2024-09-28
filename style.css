@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
 }
 
 body {
@@ -65,6 +64,7 @@ header .menu-desktop nav ul li a {
     color: white;
     text-decoration: none;
     margin-top: 0px;
+    font-weight: 700;
 }
 
 header .btn-contato button {
