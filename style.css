@@ -62,6 +62,7 @@ header .menu-desktop nav ul li {
 }
 
 header .menu-desktop nav ul li a {
+    text-shadow: black;
     font-weight: 700;
     color: white;
     text-decoration: none;
