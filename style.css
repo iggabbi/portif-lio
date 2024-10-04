@@ -62,11 +62,15 @@ header .menu-desktop nav ul li {
 }
 
 header .menu-desktop nav ul li a {
-    text-shadow: black;
     font-weight: 700;
     color: white;
     text-decoration: none;
-    margin-top: 0px;
+    display: inline-block;
+    transition: .2s;
+}
+
+.menu-desktop nav a:hover {
+    transform: scale(1.05);
 }
 
 header .btn-contato button {
@@ -78,5 +82,11 @@ header .btn-contato button {
     border: 1px solid #fff;
     color: #fff;
     cursor: pointer;
+    transition: .5s;
+}
+
+header .btn-contato button:hover {
+    background-color: #fff;
+    color: #000;
 }
 
