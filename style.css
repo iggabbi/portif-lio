@@ -104,12 +104,6 @@ section.autobiografia {
     margin-bottom: 60px;
 }
 
-.autobiografia .itens-container .img-itens img{
-    max-width: 100px;
-    height: auto;
-    margin-bottom: 20px;
-}
-
 .autobiografia .itens-container .txt-itens h3{
     font-size: 3em;
     line-height: 50px;
