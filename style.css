@@ -90,3 +90,27 @@ header .btn-contato button:hover {
     color: #000;
 }
 
+/* Estilo da biografia */
+
+section.autobiografia {
+    padding: 80px 0;
+}
+
+.vantagens .itens-container{
+    display: flex;
+    align-itens: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+.vantagens .itens-container .img-itens img{
+    max-width: 420px;
+    margin-bottom: 20px;
+}
+
+.vantagens .itens-container .txt-itens h3{
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: 300;
+}
