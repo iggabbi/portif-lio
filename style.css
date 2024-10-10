@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    font-color: #fff;
 }
 
 body {
@@ -98,7 +99,7 @@ section.autobiografia {
 
 .autobiografia .itens-container{
     display: flex;
-    align-itens: center;
+    align-items: center;
     justify-content: space-between;
     gap: 10%;
     margin-bottom: 60px;
