@@ -106,6 +106,7 @@ section.autobiografia {
 
 .autobiografia .itens-container .img-itens img{
     max-width: 100px;
+    height: auto;
     margin-bottom: 20px;
 }
 
