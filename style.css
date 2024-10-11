@@ -6,15 +6,22 @@
 }
 
 body {
-    background-image: url("cina.png");
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-color: #fff;
 }
 
 .interface {
     max-width: 1280px;
     margin: 0 auto;
-    margin-top: 0px;
+}
+
+header .btn-contato button, .hero-site button {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
 }
 
 /* Estilo do header */
@@ -22,7 +29,9 @@ header {
     width: 100%;
     padding: 40px 0;
     /* background: #b7c9e2; */
-    height: 16vh;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header .interface {
@@ -76,23 +85,56 @@ header .menu-desktop nav ul li a {
 header .btn-contato button {
     width: 140px;
     height: 50px;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
-    transition: .5s;
 }
 
-header .btn-contato button:hover {
+header .btn-contato button:hover, .hero-site button {
     background-color: #fff;
     color: #000;
 }
 
 /* Estilo do hero */
 
-section. 
+section .hero-site {
+    height: 98vh;
+    background-image: url("cina.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero-site interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-ste .txt-hero h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.hero-site .txt-hero h1 span {
+    display: block;
+    font-weight: 800;
+}
+
+.hero-site .txt-hero p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero-site .txt-hero p span {
+    display: block;
+}
+
+.hero-site button{
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}
 
 /* Estilo da biografia */
 
@@ -100,7 +142,7 @@ section.autobiografia {
     padding: 80px 0;
 }
 
-.autobiografia .itens-container{
+.autobiografia .itens-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -108,14 +150,14 @@ section.autobiografia {
     margin-bottom: 60px;
 }
 
-.autobiografia .itens-container .txt-itens h3{
+.autobiografia .itens-container .txt-itens h3 {
     font-size: 3em;
     line-height: 50px;
     font-weight: 300;
     color: #fff;
 }
 
-.itens-container .txt-itens p{
+.itens-container .txt-itens p {
     font-size: 20px;
     color: #fff;
 }
