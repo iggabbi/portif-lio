@@ -14,16 +14,6 @@ body {
     margin: 0 auto;
 }
 
-header .btn-contato button, .hero-site button {
-    font-size: 18px;
-    font-weight: 700;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
-    transition: .5s;
-}
-
 /* Estilo do header */
 header {
     width: 100%;
@@ -87,6 +77,16 @@ header .btn-contato button {
     height: 50px;
 }
 
+header .btn-contato button {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
 header .btn-contato button:hover, .hero-site button {
     background-color: #fff;
     color: #000;
@@ -100,7 +100,6 @@ section .hero-site {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: #fff;
 }
 
 .hero-site interface {
@@ -109,7 +108,7 @@ section .hero-site {
     height: 100%;
 }
 
-.hero-ste .txt-hero h1 {
+.hero-site .txt-hero h1 {
     font-size: 4em;
     line-height: 70px;
     font-weight: 200;
@@ -126,14 +125,24 @@ section .hero-site {
     margin: 20px 0;
 }
 
-.hero-site .txt-hero p span {
-    display: block;
-}
-
-.hero-site button{
+section .btn-conhecer button {
     width: 220px;
     height: 60px;
+}
+
+section .btn-contato button {
     font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+header .btn-contato button:hover, .hero-site button {
+    background-color: #fff;
+    color: #000;
 }
 
 /* Estilo da biografia */
