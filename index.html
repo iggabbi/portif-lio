@@ -16,48 +16,50 @@
 <body>
     <header> <!-- cabeçalho -->
         <div class="interface">
-            <section class="logo">
-                <img src="cin.png" alt="logotipo do site"> <!-- Corrigir caminho da imagem -->
-            </section>
+            <div class="logo">   <!-- logo -->
+                <a href="#">
+                    <img src="cin.png" alt="logotipo do site"> <!-- Corrigir caminho da imagem -->
+                </a>
+            </div>
 
-            <section class="mobile-menu">
+            <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
-            </section>
+            </div>
 
-            <section class="menu-desktop">
-                <nav> <!-- navegação -->
-                    <ul>
-                        <li><a href="#">Início</a></li> <!-- Link -->
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Portfólio</a></li>
-                    </ul>
-                </nav>
-            </section>
+            <nav class="menu-desktop">   <!-- navegação -->
+                <ul>
+                    <li><a href="#">Início</a></li> <!-- Link -->
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Portfólio</a></li>
+                </ul>
+            </nav>
 
-            <section class="btn-contato">
+            <div class="btn-contato">   <!-- botão contato -->
                 <a href="#">
                     <button>contato</button>
                 </a>
-            </section>
-            
-            <section class="btn-conhecer">
-                <a href="#">
-                    <button>Quero conhecer</button>
-                </a>
-            </section>
+            </div>
         </div> <!-- Fim de .interface -->
     </header>
 
-    <section class="hero-site">
-        <div class="interface">
-            <div class="txt-hero">
-                <h1>Meu <span>Portifólio</span></h1>
-                <p>Conheça o meu trabalho ao longo do ano!</p>
+    <main>
+        <section class="hero-site">
+            <div class="interface">
+                <div class="txt-hero">
+                    <h1>Meu <span>Portifólio</span></h1>
+                    <p>Conheça o meu trabalho ao longo do ano!</p>
+                </div>
             </div>
-        </div>
-    </section>
+
+            <div class="btn-conhecer">   <!-- botão conhecer -->
+                <a href="#">
+                    <button>Quero conhecer</button>
+                </a>
+            </div>
+        </section>
+    </main>
 
     <section class="autobiografia">
         <div class="interface">
@@ -70,12 +72,12 @@
                 </div>
 
                 <div class="img-itens">
-                    <img src="#" alt="Foto1">
+                    <img src="fotoAt.png" alt="Foto1">
                 </div>
             </article>
 
             <div class="img-itens">
-                    <img src="#" alt="Foto2">
+                    <img src="fotoBa.png" alt="Foto2">
                 </div>
             
             <article class="itens-container">
@@ -88,6 +90,26 @@
             </article>
         </div>
     </section>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/cin.png" alt="Logo">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:gabriela.tizeu@aluno.ifsp.edu.br">gabriela.tizeu@aluno.ifsp.edu.br</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
     
 </body>
 
