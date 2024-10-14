@@ -5,10 +5,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    background-color: #fff;
-}
-
 .interface {
     max-width: 1280px;
     margin: 0 auto;
