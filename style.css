@@ -20,40 +20,6 @@ body {
     display: flex;
 }
 
-.btn-contato button,
-.btn-conhecer button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #fff;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-}
-
-h3.titulo {
-    color: #fff;
-    font-size: 38px;
-    text-align: center;
-}
-
-form .btn-enviar input {
-    width: 120px;
-    background-color: #fff;
-    color: #000;
-    font-weight: 700;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-}
-
-form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #fff;
-    transform: scale(1.05);
-}
-
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
@@ -65,9 +31,11 @@ header .interface {
     justify-content: space-between;
 }
 
-header .menu-desktop nav a:hover {
+header a {
     color: #fff;
-    transform: scale(1.05);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
 }
 
 header nav ul {
@@ -79,10 +47,19 @@ header .menu-desktop nav ul li {
     padding: 0 40px;
 }
 
-header a {
+header .menu-desktop nav a:hover {
     color: #fff;
-    text-decoration: none;
-    display: inline-block;
+    transform: scale(1.05);
+}
+
+.btn-contato button, .btn-conhecer button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
     transition: .2s;
 }
 
@@ -163,6 +140,10 @@ section .topo-do-site .flex {
     line-height: 40px;
 }
 
+.topo-do-site h1 span {
+    font-weight: 700;
+}
+
 .topo-do-site .txt-topo-site p {
     color: #fff;
     font-size: 20px;
@@ -176,17 +157,54 @@ section .autobiografia {
 
 .autobiografia .txt-autobiografia h3 {
     font-size: 34px;
+    color: #fff;
     line-height: 35px;
     text-align: left;
+    margin-bottom: 20px;
 }
 
-.btn-social {
-    text-align: center;
+.autobiografia .txt-autobiografia p {
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
-.img-at img,
-.img-ba img {
+.img-at img, .img-ba img {
     width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.interface {
+    display: block;
+}
+
+.img-at {
+    float: right;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.txt-autobiografia {
+    width: 50%;
+    float: left;
+}
+
+.img-ba {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.autobiografia .txt-autobiografia + .img-ba {
+    clear: both;
+    margin-top: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
@@ -204,6 +222,16 @@ section .formulario {
     margin-top: 40px;
 }
 
+h2 .titulo {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+.titulo span {
+    color: #e63b60;
+}
+
 form input[type="text"],
 form input[type="email"],
 form textarea {
@@ -213,7 +241,7 @@ form textarea {
     outline: 0;
     padding: 20px 15px;
     border-radius: 15px;
-    color: #000; /* Cor de texto visível */
+    color: #000;
     font-size: 18px;
 }
 
@@ -227,21 +255,24 @@ form .btn-enviar {
     text-align: center;
 }
 
-/* ESTILO DOS BOTÕES SOCIAIS */
-.btn-social button {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: #00FF08;
-    font-size: 22px;
+form .btn-enviar input {
+    width: 120px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    border: 0;
+    border-radius: 30px;
     cursor: pointer;
-    margin: 0 5px;
     transition: .2s;
-    text-align: center;
+}
+
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #fff;
+    transform: scale(1.05);
 }
 
 /* ESTILO DO RODAPÉ */
+
 footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #fff;
@@ -255,8 +286,8 @@ footer .flex {
     justify-content: space-between;
 }
 
-.borda {
-    border-top: 2px solid #b7c9e2;
+footer .line-footer borda {
+    border-top: 2px solid #fff;
 }
 
 footer .line-footer p i {
@@ -268,9 +299,31 @@ footer .line-footer p a {
     color: #fff;
 }
 
+/* BOTÕES SOCIAIS */
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+    text-align: center;
+}
+
+.btn-social {
+    text-align: center;
+}
+
 /* MEDIA QUERY */
+
 @media screen and (max-width: 1020px) {
+    
     /* CLASSES GERAIS */
+    
     .flex {
         flex-direction: column;
     }
@@ -285,12 +338,14 @@ footer .line-footer p a {
     }
 
     /* CABEÇALHO */
+    
     .menu-desktop,
     .btn-contato {
         display: none;
     }
 
     /* TOPO DO SITE */
+    
     section .topo-do-site .flex {
         gap: 40px;
     }
@@ -304,6 +359,7 @@ footer .line-footer p a {
     }
 
     /* RODAPÉ */
+    
     footer .flex {
         flex-direction: column;
         gap: 30px;
