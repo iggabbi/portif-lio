@@ -45,6 +45,7 @@ header nav ul {
 header .menu-desktop nav ul li {
     display: inline-block;
     padding: 0 40px;
+    flex-direction: row;
 }
 
 header .menu-desktop nav a:hover {
