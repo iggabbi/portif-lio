@@ -152,6 +152,10 @@ section .topo-do-site .flex {
 }
 
 /* AUTOBIOGRAFIA */
+.interface {
+    display: block;
+}
+
 section .autobiografia {
     padding: 80px 8%;
 }
@@ -162,6 +166,11 @@ section .autobiografia {
     line-height: 35px;
     text-align: left;
     margin-bottom: 20px;
+}
+
+.txt-autobiografia {
+    width: 50%;
+    float: left;
 }
 
 .autobiografia .txt-autobiografia p {
@@ -176,19 +185,10 @@ section .autobiografia {
     border-radius: 10px;
 }
 
-.interface {
-    display: block;
-}
-
 .img-at {
     float: right;
     width: 45%;
     margin-left: 5%;
-}
-
-.txt-autobiografia {
-    width: 50%;
-    float: left;
 }
 
 .img-ba {
@@ -200,6 +200,13 @@ section .autobiografia {
 .autobiografia .txt-autobiografia + .img-ba {
     clear: both;
     margin-top: 20px;
+    column-gap: 50px;
+}
+
+.autobiografia .txt-autobiografia + .img-ba {
+    clear: both;
+    margin-top: 20px;
+    column-gap: 50px;
 }
 
 .clearfix::after {
@@ -244,6 +251,7 @@ form textarea {
     border-radius: 15px;
     color: #000;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 form textarea {
@@ -257,7 +265,8 @@ form .btn-enviar {
 }
 
 form .btn-enviar input {
-    width: 120px;
+    width: auto;
+    padding: 10px 40px;
     background-color: #fff;
     color: #000;
     font-weight: 700;
@@ -273,7 +282,6 @@ form .btn-enviar input:hover {
 }
 
 /* ESTILO DO RODAPÉ */
-
 footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #fff;
@@ -301,7 +309,6 @@ footer .line-footer p a {
 }
 
 /* BOTÕES SOCIAIS */
-
 .btn-social button {
     width: 60px;
     height: 60px;
@@ -320,7 +327,6 @@ footer .line-footer p a {
 }
 
 /* MEDIA QUERY */
-
 @media screen and (max-width: 1020px) {
     
     /* CLASSES GERAIS */
