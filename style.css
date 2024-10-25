@@ -38,14 +38,14 @@ header a {
     transition: .2s;
 }
 
-header nav ul {
+header .menu-desktop nav ul {
+    display: flex;
     list-style-type: none;
+    padding: 0;
 }
 
 header .menu-desktop nav ul li {
-    display: inline-block;
-    padding: 0 40px;
-    flex-direction: row;
+    margin-right: 40px;
 }
 
 header .menu-desktop nav a:hover {
