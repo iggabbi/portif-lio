@@ -38,19 +38,18 @@ header a {
     transition: .2s;
 }
 
-header .menu-desktop nav ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-header .menu-desktop nav ul li {
-    margin-right: 40px;
-}
-
-header .menu-desktop nav a:hover {
+header nav.menu-desktop a:hover {
     color: #fff;
     transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
 }
 
 .btn-contato button, .btn-conhecer button {
