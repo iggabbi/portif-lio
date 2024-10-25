@@ -6,11 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: #b7c9e2;
-    height: 100vh;
-}
-
 .interface {
     max-width: 1280px;
     margin: 0 auto;
@@ -124,6 +119,10 @@ header nav.menu-desktop ul li {
 
 /* ESTILO DO TOPO DO SITE */
 section .topo-do-site {
+    background-image: url("images/cina.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
     padding: 40px 4%;
 }
 
@@ -157,6 +156,7 @@ section .topo-do-site .flex {
 
 section .autobiografia {
     padding: 80px 8%;
+    background-color: #b7c9e2;
 }
 
 .autobiografia .txt-autobiografia h3 {
@@ -283,6 +283,7 @@ form .btn-enviar input:hover {
 /* ESTILO DO RODAPÉ */
 footer {
     padding: 40px 4%;
+    background-color: #b7c9e2;
     box-shadow: 0 0 40px 10px #fff;
 }
 
