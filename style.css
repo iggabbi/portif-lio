@@ -51,17 +51,6 @@ header nav.menu-desktop ul li {
     padding: 0 40px;
 }
 
-.btn-contato button, .btn-conhecer button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #fff;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-}
-
 /* ESTILO DO MENU MOBILE */
 .btn-abrir-menu {
     display: none;
@@ -153,6 +142,19 @@ section .topo-do-site .flex {
     margin: 40px 0;
 }
 
+.btn-contato button, .btn-conhecer button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    margin-bottom: 40px;
+}
+
+
 /* AUTOBIOGRAFIA */
 .interface {
     display: flex;
@@ -162,6 +164,7 @@ section .autobiografia {
     padding: 80px 8%;
     column-gap: 50px;
     background-color: #b7c9e2;
+    margin-bottom: 40px;
 }
 
 .autobiografia .txt-autobiografia h3 {
