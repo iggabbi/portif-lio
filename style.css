@@ -164,7 +164,6 @@ section .autobiografia {
     padding: 80px 8%;
     column-gap: 50px;
     background-color: #b7c9e2;
-    margin-bottom: 40px;
 }
 
 .autobiografia .txt-autobiografia h3 {
@@ -178,6 +177,7 @@ section .autobiografia {
 .txt-autobiografia {
     width: 50%;
     float: left;
+    margin-bottom: 40px;
 }
 
 .autobiografia .txt-autobiografia p {
