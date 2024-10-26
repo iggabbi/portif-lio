@@ -155,11 +155,12 @@ section .topo-do-site .flex {
 
 /* AUTOBIOGRAFIA */
 .interface {
-    display: block;
+    display: flex;
 }
 
 section .autobiografia {
     padding: 80px 8%;
+    column-gap: 50px;
     background-color: #b7c9e2;
 }
 
@@ -200,16 +201,14 @@ section .autobiografia {
     margin-right: 5%;
 }
 
-.autobiografia .txt-autobiografia + .img-ba {
+.autobiografia .txt-autobiografia + .img-at {
     clear: both;
     margin-top: 20px;
-    column-gap: 50px;
 }
 
 .autobiografia .txt-autobiografia + .img-ba {
     clear: both;
     margin-top: 20px;
-    column-gap: 50px;
 }
 
 .clearfix::after {
