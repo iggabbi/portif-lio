@@ -160,6 +160,7 @@ section .topo-do-site .flex {
 
 section .autobiografia {
     padding: 80px 8%;
+    column-gap: 50px;
     background-color: #b7c9e2;
 }
 
@@ -171,52 +172,49 @@ section .autobiografia {
     margin-bottom: 20px;
 }
 
-.txt-direita p {
-    color: #fff;
-    text-align: justify;
-    margin-bottom: 20px;
-}
-
-.txt-esquerda p {
-    color: #fff;
-    text-align: justify;
-    margin-bottom: 20px;
-}
-
-.autobiografia .txt-esquerda {
+.txt-autobiografia {
     width: 50%;
     float: left;
 }
 
-.img-at {
-    float: right;
-    margin-left: 5%;
-    margin-bottom: 40px;
+.autobiografia .txt-autobiografia p {
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
-.img-at img {
-    width: 45%;
+.img-at img, .img-ba img {
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.autobiografia .txt-direita {
-    width: 50%;
+.img-at {
     float: right;
+    width: 45%;
+    margin-left: 5%;
 }
 
 .img-ba {
     float: left;
     width: 45%;
-    height: auto;
     margin-right: 5%;
-    margin-bottom: 40px;
 }
 
-.img-ba img {
-    width: 45%;
-    height: auto;
-    border-radius: 10px;
+.autobiografia .txt-autobiografia + .img-at {
+    clear: both;
+    margin-top: 20px;
+}
+
+.autobiografia .txt-autobiografia + .img-ba {
+    clear: both;
+    margin-top: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
