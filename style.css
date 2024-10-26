@@ -177,7 +177,7 @@ section .autobiografia {
 .txt-autobiografia {
     width: 50%;
     float: left;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .autobiografia .txt-autobiografia p {
