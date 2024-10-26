@@ -171,7 +171,13 @@ section .autobiografia {
     margin-bottom: 20px;
 }
 
-.autobiografia .txt-direita p, txt-esquerda p {
+.txt-direita p {
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.txt-esquerda p {
     color: #fff;
     text-align: justify;
     margin-bottom: 20px;
@@ -183,12 +189,15 @@ section .autobiografia {
 }
 
 .img-at {
-    border-radius: 10px;
     float: right;
-    width: 45%;
-    height: auto;
     margin-left: 5%;
     margin-bottom: 40px;
+}
+
+.img-at img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .autobiografia .txt-direita {
@@ -204,14 +213,10 @@ section .autobiografia {
     margin-bottom: 40px;
 }
 
-.autobiografia .txt-autobiografia + .img-at {
-    clear: both;
-    margin-top: 20px;
-}
-
-.autobiografia .txt-autobiografia + .img-ba {
-    clear: both;
-    margin-top: 20px;
+.img-ba img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
