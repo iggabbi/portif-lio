@@ -48,23 +48,25 @@ header .logo img {
     max-width: 100px;
 }
 
-header nav.menu-desktop ul {
+header .menu-desktop ul {
+    display: flex;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-header nav.menu-desktop ul li {
-    display: inline-block;
+header .menu-desktop ul li {
     margin: 0 40px;
 }
 
-header nav.menu-desktop ul li a {
+header .menu-desktop ul li a {
     color: #fff;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
-nav.menu-desktop a:hover {
+.menu-desktop a:hover {
     transform: scale(1.05);
 }
 
