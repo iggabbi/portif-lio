@@ -161,63 +161,25 @@ section .topo-do-site .flex {
 }
 
 section .autobiografia {
-    padding: 80px 8%;
-    column-gap: 50px;
-    background-color: #b7c9e2;
+    padding: 80px 0;
 }
 
-.autobiografia .txt-autobiografia h3 {
-    font-size: 34px;
-    color: #fff;
-    line-height: 35px;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.txt-autobiografia {
-    width: 50%;
-    float: left;
+.autobiografia .itens-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
     margin-bottom: 60px;
 }
 
-.autobiografia .txt-autobiografia p {
-    color: #fff;
-    text-align: justify;
+.autobiografia .items-container .img-itens img {
+    max-width: 480px;
+}
+
+.autobiografia .itens-container .txt-itens h3 {
+    font-size: 3em;
+    line-height: 50px;
     margin-bottom: 20px;
-}
-
-.img-at img, .img-ba img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.img-at {
-    float: right;
-    width: 45%;
-    margin-left: 5%;
-}
-
-.img-ba {
-    float: left;
-    width: 45%;
-    margin-right: 5%;
-}
-
-.autobiografia .txt-autobiografia + .img-at {
-    clear: both;
-    margin-top: 20px;
-}
-
-.autobiografia .txt-autobiografia + .img-ba {
-    clear: both;
-    margin-top: 20px;
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
