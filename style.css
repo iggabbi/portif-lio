@@ -15,6 +15,18 @@ body {
     margin: 0 auto;
 }
 
+header .btn-contato button, .topo-do-site button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    margin-bottom: 40px;
+}
+
 .flex {
     display: flex;
 }
@@ -22,6 +34,9 @@ body {
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header .interface {
@@ -49,6 +64,16 @@ header nav ul {
 header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
+}
+
+header .btn-contato button {
+    width: 140px;
+    height: 50px;
+}
+
+header .btn-contato button:hover, .topo-do-site button:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 /* ESTILO DO MENU MOBILE */
@@ -111,49 +136,43 @@ header nav.menu-desktop ul li {
 }
 
 /* ESTILO DO TOPO DO SITE */
-section .topo-do-site {
+section.topo-do-site {
+    height: 100vh;
     background-image: url("images/cina.png");
     background-repeat: no-repeat;
-    background-size: auto;
-    height: 100vh;
-    padding: 40px 4%;
-}
-
-section .topo-do-site .flex {
-    align-items: center;
-    justify-content: left;
-    gap: 90px;
-}
-
-.topo-do-site h1 {
+    background-size: cover;
+    background-position: center;
     color: #fff;
-    font-size: 4em;
-    font-weight: 200;
-    line-height: 40px;
 }
 
-.topo-do-site h1 span {
+.topo-do-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.topo-do-site .txt-topo-site h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    display: block;
     font-weight: 700;
 }
 
 .topo-do-site .txt-topo-site p {
-    color: #fff;
     font-size: 20px;
-    margin: 40px 0;
+    font-weight: 300;
+    margin: 20px 0;
 }
 
-.btn-contato button, .btn-conhecer button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #fff;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-    margin-bottom: 40px;
+.topo-do-site button {
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
 }
-
 
 /* AUTOBIOGRAFIA */
 .interface {
