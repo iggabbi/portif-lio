@@ -173,8 +173,8 @@ section .autobiografia {
 }
 
 .autobiografia .itens-container .img-itens img {
-    max-width:200px;
-    max-height:150px;
+    max-width:100px;
+    max-height:75px;
     width: auto;
     height: auto;
 }
