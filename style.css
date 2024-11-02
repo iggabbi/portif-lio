@@ -204,7 +204,14 @@ section .autobiografia {
     margin-bottom: 60px;
 }
 
-.autobiografia .primeiraParte .img-itens img, .segundaParte .img-itens img {
+.autobiografia .primeiraParte .img-itens img {
+    max-width:100px;
+    max-height:75px;
+    width: auto;
+    height: auto;
+}
+
+.segundaParte .img-itens img {
     max-width:100px;
     max-height:75px;
     width: auto;
