@@ -225,7 +225,7 @@ section .autobiografia {
 }
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
-section .formulario {
+section.formulario {
     padding: 80px 4%;
 }
 
