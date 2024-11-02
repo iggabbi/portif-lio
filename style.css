@@ -45,26 +45,26 @@ header .interface {
 }
 
 header .logo img {
-    max-width: 40px;
+    max-width: 100px;
 }
 
-header .menu-desktop nav ul {
+header nav.menu-desktop ul {
     list-style-type: none;
 }
 
-header .menu-desktop nav ul li {
+header nav.menu-desktop ul li {
     display: inline-block;
     margin: 0 40px;
 }
 
-header .menu-desktop nav ul li a {
+header nav.menu-desktop ul li a {
     color: #fff;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
-.menu-desktop nav a:hover {
+nav.menu-desktop a:hover {
     transform: scale(1.05);
 }
 
