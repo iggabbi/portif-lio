@@ -195,6 +195,10 @@ section .autobiografia {
     margin-bottom: 60px;
 }
 
+.autobiografia .img-itens {
+    flex-direction: column;
+}
+
 .autobiografia .itens-container .img-itens img {
     max-width:100px;
     max-height:75px;
