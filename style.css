@@ -187,16 +187,21 @@ section .autobiografia {
     padding: 80px 0;
 }
 
-.autobiografia .itens-container {
+.autobiografia .primeiraParte {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.autobiografia .segundaParte {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 5%;
     margin-bottom: 60px;
-}
-
-.autobiografia .img-itens {
-    flex-direction: column;
 }
 
 .autobiografia .itens-container .img-itens img {
