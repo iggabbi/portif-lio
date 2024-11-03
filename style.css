@@ -232,7 +232,6 @@ section.contato {
 .txt-contato, .formulario {
     display: inline-block;
     width: 50%;
-    margin-right: -4px;
     vertical-align: middle;
 }
 
@@ -252,12 +251,9 @@ section.contato {
 
 .contato .formulario form {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    flex-direction: column;
     width: 60%;
-    height: 60px;
-    margin: 0  auto 20px auto;
+    margin: 0 auto 20px auto;
     padding: 0 60px;
 }
 
@@ -281,8 +277,6 @@ form textarea {
 }
 
 form .btn-enviar {
-    margin-top: 20px;
-    margin-bottom: 40px;
     text-align: center;
 }
 
