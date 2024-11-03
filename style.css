@@ -227,6 +227,7 @@ section .autobiografia {
 /* ESTILO DO FORMULÁRIO DE CONTATO */
 section.contato {
     padding: 80px 0;
+    text-align: center;
 }
 
 .txt-contato, .formulario {
@@ -240,7 +241,7 @@ section.contato {
     font-size: 3em;
     line-height: 50px;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .contato .txt-contato h2 span {
@@ -253,7 +254,7 @@ section.contato {
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
     padding: 0 60px;
 }
 
@@ -268,7 +269,7 @@ form textarea {
     border-radius: 15px;
     color: #000;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 form textarea {
@@ -277,7 +278,7 @@ form textarea {
 }
 
 form .btn-enviar {
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
 }
 
