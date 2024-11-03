@@ -244,13 +244,13 @@ section.contato {
     margin-bottom: 20px;
 }
 
-.contato .txt-contato h3 span {
+.contato .txt-contato h2 span {
     color: #e63b60;
     display: block;
     font-weight: 700;
 }
 
-.contato .formulario .form {
+.contato .formulario form {
     display: flex;
     align-items: center;
     justify-content: space-between;
