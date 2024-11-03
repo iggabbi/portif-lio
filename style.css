@@ -268,7 +268,7 @@ form textarea {
     border-radius: 15px;
     color: #000;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 form textarea {
@@ -277,6 +277,7 @@ form textarea {
 }
 
 form .btn-enviar {
+    margin-top: 10px;
     text-align: center;
 }
 
