@@ -221,7 +221,7 @@ section .autobiografia {
 .autobiografia .itens-container .txt-itens h3 {
     font-size: 3em;
     line-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
