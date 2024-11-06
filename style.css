@@ -36,6 +36,9 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+
+    transition: .5s;
+    z-index: 9999999999999999999999999999;
 }
 
 header .interface {
@@ -78,6 +81,13 @@ header .btn-contato button {
 header .btn-contato button:hover, .topo-do-site button:hover {
     box-shadow: 0px 0px 8px #fff;
     transform: scale(1.05);
+}
+
+/* MENU DINÂMICO */
+header.rolar {
+    background-color: #e63b60;
+    padding: 20px 0;
+    box-shadow: 0 0 8px #00000061;
 }
 
 /* ESTILO DO MENU MOBILE */
