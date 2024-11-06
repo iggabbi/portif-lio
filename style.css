@@ -172,6 +172,7 @@ section .autobiografia {
 }
 
 .autobiografia .txt-itens h3 {
+    color: #e63b60;
     font-size: 3em;
     line-height: 50px;
     margin-bottom: 50px;
