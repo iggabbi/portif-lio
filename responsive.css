@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 900px) {
+  header .menu-desktop, header .btn-contato {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 878px) {
+  section.topo-do-site {
+    color: #fff;
+  }
+  
+  .topo-do-site .txt-topo-site h1 {
+    font-size: 2.6em;
+    line-height: 45px;
+  }
+
+  .topo-do-site .txt-topo-site p {
+    font-size: 14px;
+  }
+
+  .topo-do-site button {
+    font-size: 18px;
+  }
+
+  .autobiografia .flex {
+    flex-direction: column;
+  }
+
+  .autobiografia .img-itens img {
+    width: 50%;
+  }
+
+  .autobiografia .txt-itens p {
+    margin-bottom: 20px;
+  }
+
+  .autobiografia .primeiraParte {
+    order: 1;
+  }
+
+  .autobiografia .segundaParte {
+    order: 0;
+  }
+
+  /* FORMULÁRIO */
+  .txt-contato {
+    display: block;
+    width: 100%;
+  }
+
+  .contato .txt-contato h2 {
+    font-size: 2em;
+    line-height: 40px;
+  }
+
+  .contato .btn-enviar button {
+    width: 100%;
+  }
+}
