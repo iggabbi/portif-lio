@@ -91,6 +91,7 @@ header .btn-contato button:hover, .topo-do-site button:hover {
 /* MENU DINÂMICO */
 header.rolar {
     background-color: #e63b60;
+    color: #fff;
     padding: 20px 0;
     box-shadow: 0 0 8px #00000061;
 }
