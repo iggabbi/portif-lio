@@ -180,6 +180,11 @@ section .autobiografia {
     margin-bottom: 50px;
 }
 
+.autobiografia .txt-itens p {
+    color: #151b54;
+    font-size: 18px;
+}
+
 /* ESTILO DO FORMULÁRIO DE CONTATO */
 section.contato {
     padding: 80px 0;
