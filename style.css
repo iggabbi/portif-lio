@@ -65,6 +65,7 @@ header .menu-desktop ul li {
 
 header .menu-desktop ul li a {
     color: #fff;
+    font-weight: 300;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
