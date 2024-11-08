@@ -20,6 +20,7 @@ body {
 }
 
 header .btn-contato button {
+    color: #151b54;
     font-size: 18px;
     font-weight: 600;
     background-color: #fff;
@@ -84,16 +85,16 @@ header .btn-contato button:hover, .topo-do-site button:hover {
     transform: scale(1.05);
 }
 
-.btn-contato a {
-    color: #151b54;
-}
-
 /* MENU DINÂMICO */
 header.rolar {
     background-color: #e63b60;
     color: #fff;
     padding: 20px 0;
     box-shadow: 0 0 8px #00000061;
+}
+
+header.rolar .menu-desktop {
+    color: #fff;
 }
 
 /* ESTILO DO TOPO DO SITE */
