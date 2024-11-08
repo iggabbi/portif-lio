@@ -1,0 +1,41 @@
+.titulo-port h2 {
+    text-align: center;
+    color: #e63b60;
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+
+.card img {
+    width: 380px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-port {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, auto));
+    gap: 1rem;
+}
+
+.card h4 {
+    color: #29465b;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.card h3 {
+    color: #151b54;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card p {
+    color: #151b54;
+    font-size: 19px;
+    max-width: 380px;
+    line-height: 25px;
+    margin-bottom: 12px;
+}
