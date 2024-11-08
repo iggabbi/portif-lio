@@ -148,7 +148,7 @@ section .autobiografia {
 
 .autobiografia .primeiraParte {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     gap: 5%;
     margin-bottom: 50px;
@@ -157,7 +157,7 @@ section .autobiografia {
 
 .autobiografia .segundaParte {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     gap: 5%;
     margin-bottom: 60px;
