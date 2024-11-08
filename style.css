@@ -17,6 +17,7 @@ body {
 }
 
 header .btn-contato button, .topo-do-site button {
+    color: #151b54;
     font-size: 18px;
     font-weight: 600;
     background-color: #fff;
