@@ -1,3 +1,7 @@
+section.portifolio {
+    background-color: #fffaf0;
+}
+
 .titulo-port h2 {
     text-align: center;
     color: #e63b60;
@@ -16,7 +20,8 @@
 
 .card-port {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 5px));
+    grid-template-columns: repeat(auto-fit, minmax(380px, auto));
+    gap: 5%;
     margin-left: 50px;
 }
 
