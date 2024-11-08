@@ -142,7 +142,7 @@ section.portifolio {
     font-size: 3em;
     text-transform: capitalize;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 130px;
 }
 
@@ -153,10 +153,9 @@ section.portifolio {
 }
 
 .card-port {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, auto));
+    display: flex;
+    justify-content: center;
     gap: 5%;
-    margin-left: 50px;
 }
 
 .card h4 {
