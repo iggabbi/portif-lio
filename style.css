@@ -278,10 +278,16 @@ footer .line-footer {
 
 footer .flex {
     display: flex;
+    justify-content: space-between;
 }
 
 footer .line-footer borda {
     border-top: 2px solid #fff;
+}
+
+footer .line-footer p {
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer .line-footer p i {
