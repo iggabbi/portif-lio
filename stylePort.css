@@ -157,6 +157,7 @@ section.portifolio {
     display: flex;
     justify-content: center;
     gap: 5%;
+    margin-bottom: 130px;
 }
 
 .card h4 {
@@ -183,7 +184,7 @@ section.portifolio {
 /* RODAPÉ */
 footer {
     padding: 40px 4%;
-    background-color: #b7c9e2;
+    background-color: #ede4e2;
     box-shadow: 0 0 40px 10px #fff;
 }
 
@@ -195,19 +196,25 @@ footer .line-footer {
 
 footer .flex {
     display: flex;
+    justify-content: space-between
 }
 
 footer .line-footer borda {
     border-top: 2px solid #fff;
 }
 
+footer .line-footer p {
+    display: flex;
+    justify-content: flex-end;
+}
+
 footer .line-footer p i {
-    color: #fff;
+    color: #fff29465b
     font-size: 22px;
 }
 
 footer .line-footer p a {
-    color: #fff;
+    color: #29465b;
 }
 
 /* BOTÕES SOCIAIS */
