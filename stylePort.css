@@ -158,22 +158,24 @@ section.portifolio {
     justify-content: center;
     gap: 5%;
     margin-bottom: 130px;
+    flex-wrap: wrap;
 }
 
-.card h4 {
+.card-txt .card h4 {
     color: #29465b;
     font-size: 18px;
     text-transform: capitalize;
     font-weight: 500;
 }
 
-.card h3 {
+.card-txt .card h3 a {
     color: #151b54;
     font-size: 22px;
     font-weight: 600;
+    text-decoration: none;
 }
 
-.card p {
+.card-txt .card p {
     color: #151b54;
     font-size: 19px;
     max-width: 380px;
