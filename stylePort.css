@@ -166,10 +166,6 @@ section.portifolio {
     max-width: 80%;
 }
 
-.card {
-    margin-right: -100px;
-}
-
 .card h4 {
     color: #29465b;
     font-size: 18px;
